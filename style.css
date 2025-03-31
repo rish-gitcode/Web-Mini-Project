@@ -1,0 +1,17 @@
+img{
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgb(24, 49, 47);
+}
+
+body{
+    background-color: rgb(229, 224, 205);
+
+}
+h1{
+    color: darkgreen;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    size: 150px;
+}
