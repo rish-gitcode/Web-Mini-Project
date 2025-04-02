@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Sound</title>
+    <link rel="stylesheet" href="../css/istyle.css">
+    <style>
+       /* body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 20px; 
+        }
+
+        .card {
+            background: white;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 300px;
+            cursor: pointer;
+        }
+
+        .image-container {
+            border: 2px solid rgb(19, 19, 19);
+            display: inline-block;
+        }
+
+        .image-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="card" onclick="toggleSound('audio1')">
+            <div class="image-container">
+                <img src="../img/Amphibian/amphibians.jpeg" alt="Birds">
+            </div>
+            <div class="caption">BIRDS</div>
+            <audio id="audio1" src="../sounds/animals/dog.mp3"></audio>
+        </div>
+
+        <div class="card" onclick="toggleSound('audio2')">
+            <div class="image-container">
+                <img src="../img/Birds/birds.jpeg">
+            </div>
+            <div class="caption">NATURE</div>
+            <audio id="audio2" src="../sounds/birds/dove.mp3"></audio>
+        </div>
+
+        <div class="card" onclick="toggleSound('audio3')">
+            <div class="image-container">
+                <img src="../img/fish/Blue tang.jpeg" alt="Animals">
+            </div>
+            <div class="caption">ANIMALS</div>
+            <audio id="audio3" src="../sounds/birds/eagle.mp3"></audio>
+        </div>
+    </div>
+
+    <script>
+        function toggleSound(audioId) {
+            let audio = document.getElementById(audioId);
+            
+            if (audio.paused) {
+                // Stop all other audios before playing
+                document.querySelectorAll('audio').forEach(a => a.pause());
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+</body>
+</html>
