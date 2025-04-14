@@ -2,42 +2,246 @@
 <html>
 <head>
     <title>Animals</title>
-    <link rel="stylesheet" href="../css/anistyle.css">
+    <link rel="stylesheet" href="../css/istyle.css">
 </head>
 <body>
-    
-    <img  src="../img/Mammal/dog.jpg">
-    <img src="../img/Mammal/cat.jpg">
-    <img src="../img/Mammal/cow.jpg">
-    <img src="../img/Mammal/bull.jpeg">
-    <img src="../img/Mammal/donkey.png">
-    <img src="../img/Mammal/bear.jpg">
-    <img src="../img/Mammal/camel.jpeg">
-    <img src="../img/Mammal/chimpanzee.jpg">
-    <img src="../img/Mammal/deer.jpg">
-    <img src="../img/Mammal/ele.jpg">
-    <img src="../img/Mammal/fox.jpg">
-    <img src="../img/Mammal/giraffe.jpeg">
-    <img src="../img/Mammal/goat.jpg">
-    <img src="../img/Mammal/gorilla.jpeg">
-    <img src="../img/Mammal/hare.jpeg">
-    <img src="../img/Mammal/horse.jpg">
-    <img src="../img/Mammal/jackal.jpeg">
-    <img src="../img/Mammal/leopard.jpeg">
-    <img src="../img/Mammal/lion.jpeg">
-    <img src="../img/Mammal/monkey.jpg">
-    <img src="../img/Mammal/Panther.jpeg">
-    <img src="../img/Mammal/pig.jpg">
-    <img src="../img/Mammal/polarbear.jpeg">
-    <img src="../img/Mammal/porcupine.jpeg">
-    <img src="../img/Mammal/rabbit.jpeg">
-    <img src="../img/Mammal/rat.jpg">
-    <img src="../img/Mammal/sheep.jpeg">
-    <img src="../img/Mammal/tiger.jpeg">
-    <img src="../img/Mammal/walrus.jpeg">
-    <img src="../img/Mammal/wolf.jpg">
-    <img src="../img/Mammal/zebra.jpeg">
-</div>
-<script src="script.js"></script>
+    <h1>MAMMALS</h1>
+    <div class="gallery">
+        <div class="card" onclick="toggleSound('audio1')">
+            <div class="image-container">
+                <img  src="../img/Mammal/dog.jpg">
+            </div>
+            <div class="caption">DOG</div>
+            <div class="caption1">Canis Lupus Familiaris</div>
+            <audio id="audio1" src="../sounds/animals/dog.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio2')">
+            <div class="image-container">
+                <img src="../img/Mammal/cat.jpg">
+            </div>
+            <div class="caption">CAT</div>
+            <div class="caption1">Felis Catus</div>
+            <audio id="audio2" src="../sounds/animals/cat.wav"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio3')">
+            <div class="image-container">
+                <img src="../img/Mammal/cow.jpg">
+            </div>
+            <div class="caption">COW</div>
+            <div class="caption1">Bos Taurus</div>
+            <audio id="audio3" src="../sounds/animals/cow.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio4')">
+            <div class="image-container">
+                <img src="../img/Mammal/bull.jpeg">
+            </div>
+            <div class="caption">BULL</div>
+            <div class="caption1">Bos Taurus (male cattle)</div>
+            <audio id="audio4" src="../sounds/animals/bull.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio5')">
+            <div class="image-container">
+                <img src="../img/Mammal/donkey.png">
+            </div>
+            <div class="caption">DONKEY</div>
+            <div class="caption1">Equus Africanus Asinus</div>
+            <audio id="audio5" src="../sounds/animals/donkey.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio6')">
+            <div class="image-container">
+                <img src="../img/Mammal/bear.jpg">
+            </div>
+            <div class="caption">BEAR</div>
+            <div class="caption1">Ursidae Family</div>
+            <audio id="audio6" src="../sounds/animals/bear.mp3"></audio>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/camel.jpeg">
+            </div>
+            <div class="caption">CAMEL</div>
+            <div class="caption1">Camelus Spp.</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/chimpanzee.jpg">
+            </div>
+            <div class="caption">CHIMPANZEE</div>
+            <div class="caption1">Pan Troglodytes</div>
+        </div>
+        <div class="card" onclick="toggleSound('audio7')">
+            <div class="image-container">
+                <img src="../img/Mammal/deer.jpg">
+            </div>
+            <div class="caption">DEER</div>
+            <div class="caption1">Cervidae Family</div>
+            <audio id="audio7" src="../sounds/animals/deer.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio8')">
+            <div class="image-container">
+                <img src="../img/Mammal/ele.jpg">
+            </div>
+            <div class="caption">ELEPHANT</div>
+            <div class="caption1">Elephantidae family</div>
+            <audio id="audio8" src="../sounds/animals/elephant.mp3"></audio>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/fox.jpg">
+            </div>
+            <div class="caption">FOX</div>
+            <div class="caption1">Vulpes Spp.</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/giraffe.jpeg">
+            </div>
+            <div class="caption">GIRAFFE</div>
+            <div class="caption1">Giraffa Camelopardalis</div>
+        </div>
+        <div class="card" onclick="toggleSound('audio9')">
+            <div class="image-container">
+                <img src="../img/Mammal/goat.jpg">
+            </div>
+            <div class="caption">GOAT</div>
+            <div class="caption1">Capra Hircus</div>
+            <audio id="audio9" src="../sounds/animals/goat.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio10')">
+            <div class="image-container">
+                <img src="../img/Mammal/gorilla.jpeg">
+            </div>
+            <div class="caption">GORILLA</div>
+            <div class="caption1">Gorilla Spp.</div>
+            <audio id="audio10" src="../sounds/animals/gorilla.mp3"></audio>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/hare.jpeg">
+            </div>
+            <div class="caption">HARE</div>
+            <div class="caption1">Lepus Spp.</div>
+        </div>
+        <div class="card" onclick="toggleSound('audio11')">
+            <div class="image-container">
+                <img src="../img/Mammal/horse.jpg">
+            </div>
+            <div class="caption">HORSE</div>
+            <div class="caption1">Equus Ferus Caballus</div>
+            <audio id="audio11" src="../sounds/animals/horse.mp3"></audio>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/jackal.jpeg">
+            </div>
+            <div class="caption">JACKAL</div>
+            <div class="caption1">Canis Aureus</div>
+        </div>
+        <div class="card" onclick="toggleSound('audio12')">
+            <div class="image-container">
+                <img src="../img/Mammal/leopard.jpeg">
+            </div>
+            <div class="caption">LEOPARD</div>
+            <div class="caption1">Panthera Pardus</div>
+            <audio id="audio12" src="../sounds/animals/leopard.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio13')">
+            <div class="image-container">
+                <img src="../img/Mammal/lion.jpeg">
+            </div>
+            <div class="caption">LION</div>
+            <div class="caption1">Panthera Leo</div>
+            <audio id="audio13" src="../sounds/animals/lion.mp3"></audio>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/monkey.jpg">
+            </div>
+            <div class="caption">MONKEY</div>
+            <div class="caption1">Primates order</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/Panther.jpeg">
+            </div>
+            <div class="caption">PANTHER</div>
+            <div class="caption1">Panthera Spp.</div>
+        </div>
+        <div class="card" onclick="toggleSound('audio14')">
+            <div class="image-container">
+                <img src="../img/Mammal/pig.jpg">
+            </div>
+            <div class="caption">PIG</div>
+            <div class="caption1">Sus Scrofa Domesticus</div>
+            <audio id="audio14" src="../sounds/animals/pig.mp3"></audio>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/polarbear.jpeg">
+            </div>
+            <div class="caption">POLAR BEAR</div>
+            <div class="caption1">Ursus Maritimus</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/porcupine.jpeg">
+            </div>
+            <div class="caption">PROCUPINE</div>
+            <div class="caption1">Hystricidae or Erethizontidae Family</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/rabbit.jpeg">
+            </div>
+            <div class="caption">RABBIT</div>
+            <div class="caption1">Oryctolagus Cuniculus</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/rat.jpg">
+            </div>
+            <div class="caption">RAT</div>
+            <div class="caption1">Rattus Spp.</div>
+        </div>
+        <div class="card" onclick="toggleSound('audio15')">
+            <div class="image-container">
+                <img src="../img/Mammal/sheep.jpeg">
+            </div>
+            <div class="caption">SHEEP</div>
+            <div class="caption1">Ovis Aries</div>
+            <audio id="audio15" src="../sounds/animals/sheep.mp3"></audio>
+        </div>
+        <div class="card" onclick="toggleSound('audio16')">
+            <div class="image-container">
+                <img src="../img/Mammal/tiger.jpeg">
+            </div>
+            <div class="caption">TIGER</div>
+            <div class="caption1">Panthera Tigris</div>
+            <audio id="audio16" src="../sounds/animals/tiger.mp3"></audio>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/walrus.jpeg">
+            </div>
+            <div class="caption">WALRUS</div>
+            <div class="caption1">Odobenus Rosmarus</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/wolf.jpg">
+            </div>
+            <div class="caption">WOLF</div>
+            <div class="caption1">Canis Lupus</div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <img src="../img/Mammal/zebra.jpeg">
+            </div>
+            <div class="caption">ZEBRA</div>
+            <div class="caption1">Equus Spp.</div>
+        </div>
+</div><br>
+<a href="../index.html"><button>BACK</button></a>
+<script src="../script.js"></script>
 </body>
 </html>

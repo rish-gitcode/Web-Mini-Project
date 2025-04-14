@@ -5,27 +5,27 @@ img{
 }
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #e0afaf;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(88, 22, 35);
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  /*3 columns per row */
-    gap: 20px; /* Space between images 
-    /*max-width: 900px;*/
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Auto adjust */
+    gap: 20px;
+    max-width: 100%;
     margin: auto;
+    align-items: center;
 }
 
-/*.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 900px;
-}*/
+
 
 .card {
     background: white;

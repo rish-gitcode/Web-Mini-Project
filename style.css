@@ -8,12 +8,13 @@
 h1{
     color: darkgreen;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    size: 150px;
+    size: 250px;
     text-align: center;
+    font-style: bold;
 }
 h1.center{
     align-items: center;
-    text-size-adjust: 200px;
+    text-size-adjust: 300px;
 }
 img{
     height: 200px;
@@ -22,9 +23,9 @@ img{
 }
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: rgb(229, 224, 205);
 }
 
