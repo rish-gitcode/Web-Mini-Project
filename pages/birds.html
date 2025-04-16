@@ -7,33 +7,37 @@
 <body style="background-color: #e8deb2;">
     <h1 style="color: rgb(155, 88, 11);">BIRDS</h1>
     <div class="gallery">
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio1')">
         <div class="image-container">
             <img src="../img/Birds/crow.jpeg">
         </div>
         <div class="caption">CROW</div>
         <div class="caption1"> Corvus Spp.</div>
+        <audio id="audio1" src="../sounds/birds/crow.mp3"></audio>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio2')">
         <div class="image-container">
             <img src="../img/Birds/dove.jpg">
         </div>
         <div class="caption">DOVE</div>
         <div class="caption1"> Columbidae Family</div>
+        <audio id="audio2" src="../sounds/birds/dove.mp3"></audio>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio3')">
         <div class="image-container">
             <img src="../img/Birds/duck.jpeg">
         </div>
         <div class="caption">DUCK</div>
         <div class="caption1"> Anatidae Family</div>
+        <audio id="audio3" src="../sounds/birds/duck.mp3"></audio>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio4')">
         <div class="image-container">
             <img src="../img/Birds/eagle.jpeg">
         </div>
         <div class="caption">EAGLE</div>
         <div class="caption1"> Accipitridae Family</div>
+        <audio id="audio4" src="../sounds/birds/eagle.mp3"></audio>
     </div>
     <div class="card">
         <div class="image-container">
@@ -42,19 +46,21 @@
         <div class="caption">EMU</div>
         <div class="caption1"> Dromaius novaehollandiae</div>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio5')">
         <div class="image-container">
             <img src="../img/Birds/flamingo.jpeg">
         </div>
         <div class="caption">FLAMINGO</div>
         <div class="caption1"> Phoenicopteridae Family</div>
+        <audio id="audio5" src="../sounds/birds/flamingo.mp3"></audio>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio6')">
         <div class="image-container">
             <img src="../img/Birds/hen.jpg">
         </div>
         <div class="caption">HEN</div>
         <div class="caption1"> Gallus Gallus Domesticus</div>
+        <audio id="audio6" src="../sounds/birds/cock.mp3"></audio>
     </div>
     <div class="card">
         <div class="image-container">
@@ -91,33 +97,37 @@
         <div class="caption">LOVE BIRDS</div>
         <divS class="caption1"> Agapornis pp.</divS>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio7')">
         <div class="image-container">
             <img src="../img/Birds/ostrich.jpeg">
         </div>
         <div class="caption">OSTRICH</div>
         <div class="caption1"> Struthio Camelus</div>
+        <audio id="audio7" src="../sounds/birds/ostrich.mp3"></audio>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio8')">
         <div class="image-container">
             <img src="../img/Birds/owl.jpeg">
         </div>
         <div class="caption">OWL</div>
         <div class="caption1"> Strigiformes Order</div>
+        <audio id="audio8" src="../sounds/birds/owl.mp3"></audio>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio9')">
         <div class="image-container">
             <img src="../img/Birds/parrot.jpeg">
         </div>
         <div class="caption">PARROT</div>
         <div class="caption1"> Psittaciformes Order</div>
+        <audio id="audio9" src="../sounds/birds/parrot.mp3"></audio>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio10')">
         <div class="image-container">
             <img src="../img/Birds/peacock.jpg">
         </div>
         <div class="caption">PEACOCK</div>
         <div class="caption1"> Pavo Cristatus</div>
+        <audio id="audio10" src="../sounds/birds/peacock.mp3"></audio>
     </div>
     <div class="card">
         <div class="image-container">
@@ -126,12 +136,13 @@
         <div class="caption">PIGEON</div>
         <div class="caption1">  Columba Livia </div>
     </div>
-    <div class="card">
+    <div class="card" onclick="toggleSound('audio11')">
         <div class="image-container">
             <img src="../img/Birds/scarletmacaw.jpeg">
         </div>
         <div class="caption">SCARLET MACAW</div>
         <div class="caption1">Ara Macao</div>
+        <audio id="audio11" src="../sounds/birds/scarletmacaw.wav"></audio>
     </div>
     <div class="card">
         <div class="image-container">
@@ -184,5 +195,6 @@
     </div>
 </div></div><br>
     <a href="../index.html"><button>BACK</button></a>
+    <script src="../script.js"></script>
 </body>
 </html>
