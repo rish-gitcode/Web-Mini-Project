@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
-    <link rel="stylesheet" href="../css/istyle.css">
-       
+       <style>
+.header {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: rgb(17, 71, 65);
+}
+
+.back-btn {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.back-btn img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+       </style>
 </head>
 <body>
-    <div class="gallery">
-        <div class="card">
-            <div class="image-container">
-                <img src="../img/fish/Blue tang.jpeg" alt="Birds">
-            </div>
-            <div class="caption">BIRDS</div><br>
-            <audio controls>
-                <source src="../sounds/birds/cock.mp3" type="audio/mp3">
-            </audio>
-        </div>
+    <div class="header">
+    <a href="../index.html" class="back-btn">
+        <img src="../img/backarrow.png" alt="Back" />
+    </a>
+    <h1>MAMMALS</h1>
+</div>
 
-        <div class="card">
-            <div class="image-container">
-                <img src="../img/Birds/birds.jpeg" alt="Nature">
-            </div>
-            <div class="caption">NATURE</div>
-        </div>
 
-        <div class="card">
-            <div class="image-container">
-                <img src="../img/Amphibian/amphibians.jpeg" alt="Animals">
-            </div>
-            <div class="caption">ANIMALS</div>
-        </div>
-    </div>
-</body>
+
+    </body>
 </html>

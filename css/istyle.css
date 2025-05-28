@@ -6,21 +6,31 @@ img{
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     
 }
+.header {
+    display: flex;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+
 h1{
     font-size: 55px;
     font-weight: 900;
+    justify-content: center;
 }
 button{
-    height: 30px;
-    width: 80px;
-    border-radius: 10%;
-    background: #e0a9a9;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
     font-weight: bold;
     color: black;
+    background: #ffffff;
+    align-items: right;
+    margin: 20px;
 }
 
 .gallery {
@@ -41,16 +51,19 @@ button{
     text-align: center;
     width: 375px;
     cursor: pointer;
+    border-radius: 20%;
 }
 
 .image-container {
     border: 2px solid rgb(19, 19, 19);
     display: inline-block;
+    border-radius: 20%;
 }
 
 .image-container img {
     width: 100%;
     display: block;
+    border-radius: 20%;
 }
 
 .caption {
