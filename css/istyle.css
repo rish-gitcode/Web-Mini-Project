@@ -10,27 +10,38 @@ body {
     align-items: center;*/
     
 }
-.header {
-    display: flex;
-    position: relative;
-    text-align: center;
-    padding: 20px 0;
-}
 
 h1{
     font-size: 55px;
     font-weight: 900;
     justify-content: center;
 }
-button{
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-btn img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+button {
     height: 70px;
     width: 70px;
     border-radius: 50%;
     font-weight: bold;
     color: black;
     background: #ffffff;
-    align-items: right;
-    margin: 20px;
+    border: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .gallery {
