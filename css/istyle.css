@@ -22,12 +22,27 @@ h1{
     align-items: center;
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
+.nav-lr {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* spacing between buttons */
+}
+
+.header-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .nav-btn img {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* spacing between buttons */
 }
 
 button {
