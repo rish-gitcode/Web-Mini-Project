@@ -28,7 +28,7 @@ h1{
 .nav-lr {
     display: flex;
     align-items: center;
-    gap: 5px; /* spacing between buttons */
+    gap: 10px; /* spacing between buttons */
 }
 
 .header-title {
