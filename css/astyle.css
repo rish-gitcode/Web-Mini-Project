@@ -1,0 +1,66 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #eef7f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: black;
+    background: #ffffff;
+    border: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #23523d;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin: 20px 0;
+        }
+        .highlight {
+            color: #23523d;
+            font-weight: bold;
+        }
+        .team-section {
+            margin-top: 40px;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid #23523d;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+            background-color: #23523d;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+        }

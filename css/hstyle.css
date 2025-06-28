@@ -5,6 +5,35 @@
     padding: 20px;
     box-shadow: rgb(24, 49, 47);
 }*/
+.header {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.home-btn {
+    position: absolute;
+    left: 20px;                /* distance from left edge */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-btn img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 2em;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0; /* remove default margin */
+}
+
 h1{
     color: darkgreen;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -16,6 +45,7 @@ h1.center{
     align-items: center;
     text-size-adjust: 300px;
 }
+
 img{
     height: 200px;
     width: 250px;    
